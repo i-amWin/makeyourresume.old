@@ -19,7 +19,7 @@ const Template1 = forwardRef<HTMLDivElement>((_, ref) => {
   const [customStyles] = useAtom(customStylesAtom);
 
   return (
-    <section className="w-fit overflow-x-scroll shadow-2xl dark:shadow-white/[.25]">
+    <section className="overflow-x-scroll shadow-2xl dark:shadow-white/[.25]">
       <div
         ref={ref}
         className="flex min-h-[841.5pt] w-[596pt] gap-[12pt] bg-white py-[21pt] pl-[15pt] text-black"

@@ -40,7 +40,7 @@ export default function ResumeOutput() {
       <div className="mb-8 flex flex-wrap gap-4">
         <EditStyles />
         <Button asChild variant="outline">
-          <Link href="/resume-form">Edit Data</Link>
+          <Link href={`/${params.templateId}/resume-form`}>Edit Data</Link>
         </Button>
         <Button onClick={handlePrint}>Download Resume</Button>
       </div>
